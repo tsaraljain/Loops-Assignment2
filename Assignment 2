@@ -1,0 +1,98 @@
+Q1. Predict the output
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+while ('1' < '2')
+cout << "In while loop" << endl;
+}
+ANSWER : It will be an infinite loop
+
+Q2. Predict the output
+#include <bits/stdc++.h>
+using namespace std;
+int main( ) {
+int t = 10;
+while (t /= 2) {
+cout << "Hello" << endl;
+}
+}
+ANSWER 
+Hello
+Hello
+Hello
+
+Q3. Predict the output
+#include <bits/stdc++.h>
+using namespace std;
+int main( ) {
+for (int x = 1; x * x <= 10; x++)
+cout << "In for loop" << endl;
+}
+ANSWER 
+In for loop
+In for loop
+In for loop
+
+Q4. Predict the output
+#include <bits/stdc++.h>
+using namespace std;
+int main( ) {
+int x = 10, y = 0 ;
+while ( x >= y ) {
+x-- ;
+y++ ;
+cout << x << " " << y << endl ;
+}
+}
+ANSWER
+9 1
+8 2
+7 3
+6 4 
+5 5 
+4 6
+
+Q5. WAP to print the sum of all the even digits of a given number.
+ANSWER 
+#include <bits/stdc++.h>
+using namespace std;
+int main( ) {
+int n;
+cout << " ENTER THE NUMBER : ";
+cin >> n;
+int t = n;
+int sum = 0 ;
+while(t>0){
+    int r = t%10;
+    if(r%2==0){
+        sum = sum + r;
+    }
+    t = t/10;
+    
+}
+cout << sum << endl;
+}
+
+Q6. WAP to print the sum of a given number and its reverse.
+ANSWER 
+#include <bits/stdc++.h>
+using namespace std;
+int main( ) {
+int n;
+cout << " ENTER THE NUMBER : ";
+cin >> n;
+int t = n;
+int sum = 0, reverse = 0;
+while(t>0){
+    int r = t%10;
+    reverse = reverse*10 + r;
+    t = t/10;
+    
+}
+cout << " SUM OF NUMBER AND DIGIT IS " << endl <<  n + reverse  ;
+}
+
+Q7. Print the factorials of first ‘n’ numbers
+ANSWER
+
+
